@@ -1,13 +1,13 @@
 # Server Checkout Sheet Generator
 
-This script automates the creation of a two-week server checkout Excel workbook for **VINNY ABQ**. It uses a template `.xlsx` file and generates a copy with 14 dated sheets, each named according to the selected start date.
+This script automates the creation of a two-week server checkout Excel workbook for Vinaigrette. It uses a template `.xlsx` file and generates a copy with 14 dated sheets.
 
 ---
 
-## 📋 What It Does
+## What It Does
 
-- Prompts the user to enter a **start date** in `MM.DD` format.
-- Calculates a **two-week date range** based on the start date.
+- Prompts the user to enter a start date in `MM.DD` format.
+- Calculates a two-week date range based on the start date.
 - Copies a template Excel file and renames it using the date range (e.g., `06.08-06.21.xlsx`).
 - Removes the `"NO EXPO"` sheet.
 - Renames the `"EXPO"` sheet to the starting date (e.g., `06.08`).
@@ -17,7 +17,7 @@ This script automates the creation of a two-week server checkout Excel workbook 
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 - Python 3.x
 - [`openpyxl`](https://openpyxl.readthedocs.io/en/stable/)
