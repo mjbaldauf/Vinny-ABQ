@@ -1,6 +1,6 @@
 # Server Checkout Sheet Generator
 
-This script automates the creation of a two-week server checkout Excel workbook for Vinaigrette. It uses a template `.xlsx` file and generates a copy with 14 dated sheets.
+This script automates the creation of a two-week server checkout Excel workbook for Vinaigrette. It uses a template .xlsx file and generates a copy with 14 dated sheets.
 
 ---
 
