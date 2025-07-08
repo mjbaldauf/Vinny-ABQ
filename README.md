@@ -20,7 +20,7 @@ This script automates the creation of a two-week server checkout Excel workbook 
 ## Requirements
 
 - Python 3.x
-- [openpyxl](https://openpyxl.readthedocs.io/en/stable/)
+- openpyxl
 - Standard library modules:
   - shutil
   - datetime
